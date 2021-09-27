@@ -9,9 +9,7 @@ public class DemoApplication {
 	public static void main(String[] args)
 	{
 
-		String c = "";
-		String a
-				="aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa";
+		String c = "aaaaaaaaaaaaa" + "aaaaaaaaaaaaa" + "aaaaaaaaaaaaa" + "aaaaaaaaaaaaa" + "aaaaaaaaaaaaa" + "aaaaaaaaaaaaa" + "aaaaaaaaaaaaa" + "aaaaaaaaaaaaa" + "aaaaaaaaaaaaa" + "aaaaaaaaaaaaa" + "aaaaaaaaaaaaa";
 		String b="bbbbbbbbbb";
 		System.out.println(a + b);
 		SpringApplication.run(DemoApplication.class, args);
