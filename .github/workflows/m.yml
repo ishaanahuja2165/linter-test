@@ -20,6 +20,6 @@ jobs:
         
         env:
           VALIDATE_ALL_CODEBASE: false
-          VALIDATE_GOOGLE_JAVA_FORMAT: true
+          JAVA_FILE_NAME : formatter.xml
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           DEFAULT_BRANCH: main
