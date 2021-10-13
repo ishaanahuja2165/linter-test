@@ -7,15 +7,15 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 @SuppressWarnings("checkstyle:hideutilityclassconstructor")
 public class DemoApplication {
 
-  /**
-   * main.
-   *
-   * @param args
-   */
-  public static void main(final String[] args) {
-    String a = "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa";
-    String b = "bbbbbbbbbb";
-    System.out.println(a + b);
-    SpringApplication.run(DemoApplication.class, args);
-  }
+    /**
+     * main.
+     *
+     * @param args
+     */
+    public static void main(final String[] args) {
+        String a = "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa";
+        String b = "bbbbbbbbbb";
+        System.out.println(a + b);
+        SpringApplication.run(DemoApplication.class, args);
+    }
 }
