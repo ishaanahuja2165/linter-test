@@ -21,6 +21,6 @@ jobs:
         env:
           VALIDATE_ALL_CODEBASE: false
           JAVA_FILE_NAME: sun_checks.xml
-          VALIDATE_JAVA: true
+          VALIDATE_GOOGLE_JAVA_FORMAT: true
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           DEFAULT_BRANCH: main
